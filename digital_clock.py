@@ -2,7 +2,7 @@ import time
 from tkinter import *
 
 def clock():
-    tikTok = time.strftime("%H:%M:%S %p")     # %p는 AM PM 표시
+    tikTok = time.strftime("%H:%M:%S %p")     # %p == show AM,PM
     label.config(text=str(tikTok))
     label.after(1000, clock) 
     
